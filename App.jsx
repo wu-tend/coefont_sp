@@ -3,11 +3,13 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import Hello from './src/components/Hello';
+import Main from './src/components/Main';
 
 export default function App() {
   return (
     <View style={styles.container}>
-		<Hello bang>React-Native</Hello>
+        <Main></Main>
+		<Hello>React-Native</Hello>
 		<Hello style={{fontSize: 16}}>Small Font</Hello>
 		<Text>Open up App.js to start working on your apps!</Text>
       	<StatusBar style="auto" />
